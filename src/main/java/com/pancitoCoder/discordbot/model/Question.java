@@ -6,6 +6,7 @@ import lombok.Setter;
 import javax.persistence.*;
 import java.util.List;
 
+/*
 @Entity
 @Table(name = "QUESTION")
 @Getter @Setter
@@ -20,3 +21,4 @@ public class Question {
     @OneToMany(mappedBy = "question")
     private List<Button> buttonList;
 }
+*/

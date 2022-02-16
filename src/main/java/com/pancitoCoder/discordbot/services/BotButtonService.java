@@ -2,7 +2,7 @@ package com.pancitoCoder.discordbot.services;
 
 import com.pancitoCoder.discordbot.config.ButtonEventInventory;
 import com.pancitoCoder.discordbot.dao.QuestionRepository;
-import com.pancitoCoder.discordbot.model.Question;
+//import com.pancitoCoder.discordbot.model.Question;
 import org.javacord.api.entity.message.component.Button;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -19,7 +19,7 @@ public class BotButtonService {
 
     public Button[] getButtonsByQuestion(String identifier) {
 
-        Optional<Question> questionOptional = questionRepository.findById(identifier);
+        /*Optional<Question> questionOptional = questionRepository.findById(identifier);
         if (!questionOptional.isPresent()) {
             throw new RuntimeException("Question not found");
         }
@@ -27,7 +27,7 @@ public class BotButtonService {
         if (questionOptional.get().getButtonList() != null
                 && !questionOptional.get().getButtonList().isEmpty()) {
 
-        }
+        }*/
 
         //@TODO change to db
         Button[] buttons = new Button[2];

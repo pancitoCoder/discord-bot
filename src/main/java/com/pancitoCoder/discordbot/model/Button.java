@@ -5,7 +5,7 @@ import lombok.Setter;
 
 import javax.persistence.*;
 
-@Entity
+/*@Entity
 @Table(name = "BUTTON")
 @Getter @Setter
 public class Button {
@@ -17,4 +17,4 @@ public class Button {
     @ManyToOne
     @JoinColumn(name = "QUE_IDENT", referencedColumnName = "QUE_IDENT")
     private Question question;
-}
+}*/
