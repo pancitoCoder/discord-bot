@@ -1,7 +1,7 @@
 package com.pancitoCoder.discordbot.services;
 
 import com.pancitoCoder.discordbot.config.ButtonEventInventory;
-import com.pancitoCoder.discordbot.dao.QuestionRepository;
+//import com.pancitoCoder.discordbot.dao.QuestionRepository;
 //import com.pancitoCoder.discordbot.model.Question;
 import org.javacord.api.entity.message.component.Button;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,8 +14,8 @@ import java.util.Optional;
 @Service
 public class BotButtonService {
 
-    @Autowired
-    private QuestionRepository questionRepository;
+    /*@Autowired
+    private QuestionRepository questionRepository;*/
 
     public Button[] getButtonsByQuestion(String identifier) {
 
