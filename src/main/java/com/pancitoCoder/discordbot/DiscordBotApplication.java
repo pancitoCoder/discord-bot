@@ -3,7 +3,7 @@ package com.pancitoCoder.discordbot;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = "com.pancitoCoder.discordbot")
 public class DiscordBotApplication {
 
 	public static void main(String[] args) {
