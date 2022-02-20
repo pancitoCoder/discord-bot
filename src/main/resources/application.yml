@@ -13,3 +13,5 @@
 
 #  jpa:
 #    database-platform: org.hibernate.dialect.H2Dialect
+
+valorant.url: https://valorant-api.com/v1

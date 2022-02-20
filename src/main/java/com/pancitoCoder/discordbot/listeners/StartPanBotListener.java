@@ -24,7 +24,7 @@ public class StartPanBotListener implements PanBotListener {
     @Autowired
     private BotButtonService botButtonService;
 
-    @Value("${application.bot.user.name:AaronG}")
+    @Value("${application.bot.user.name:panCoder}")
     private String name;
 
     private static final String COMMAND =  ".iniciar";
